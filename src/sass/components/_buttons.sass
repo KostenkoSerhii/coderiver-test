@@ -1,0 +1,36 @@
+.more-link
+	color: $blue
+	+barlow
+	font-size: 14px
+	font-weight: 700
+	text-transform: uppercase
+	position: relative
+	display: inline-block
+	vertical-align: top
+	padding-left: 34px
+	&:before
+		content: ''
+		position: absolute
+		width: 4px
+		height: 18px
+		left: 0
+		top: 50%
+		transform: translateY(-50%)
+		background-color: $blue
+.play-btn
+	width: 96px
+	height: 96px
+	border: 2px solid $white
+	border-radius: 50%
+	appearance: none
+	background: transparent
+	position: relative
+	font-size: 0
+	line-height: 1
+	i
+		position: absolute
+		top: 50%
+		transform: translate(-44%, -50%)
+	svg
+		font-size: 50px
+		fill: $white

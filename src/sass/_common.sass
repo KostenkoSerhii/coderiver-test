@@ -1,0 +1,43 @@
+=rob
+	font-family: 'Roboto', sans-serif
+=barlow
+	font-family: 'Barlow', sans-serif;
+
+
+$white: #fff
+$gray: #7c8092
+$black: #303342
+$blue: #1b2550
+$blue2: #032c9e
+$blue-bg: #0137a0
+$cyan: #33cbcc
+body
+	background: #FFF
+	line-height: 1.4
+	+font-smoothing
+	+rob
+	font-size: 16px
+a
+	text-decoration: none
+
+.title-lg
+	color: $white
+	font-size: 60px
+	font-weight: 700
+	text-transform: uppercase
+	
+.title-md
+	color: $blue
+	font-size: 48px
+	font-weight: 600
+.title-sm
+	color: $black
+	font-size: 36px
+	font-weight: 600
+.title-lg, .title-md, .title-sm
+	+barlow
+	font-style: normal
+.article
+	color: $gray
+	font-size: 16px
+	line-height: 1.95

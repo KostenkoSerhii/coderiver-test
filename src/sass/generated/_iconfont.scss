@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('fonts/iconfont.eot');
+  src: url('fonts/iconfont.eot?#iefix') format('eot'),
+    url('fonts/iconfont.woff2') format('woff2'),
+    url('fonts/iconfont.woff') format('woff'),
+    url('fonts/iconfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$icon-facebook: "\EA01";
+$icon-fb: "\EA02";
+$icon-insta: "\EA03";
+$icon-play: "\EA04";
+$icon-tw: "\EA05";
+$icon-you: "\EA06";
+$icon-you1: "\EA07";
+$icon-you2: "\EA08";
+
+
+%icon {
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: auto;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  @extend %icon;
+  display: inline-block;
+}
+
+.icon-facebook:before { content: $icon-facebook; }
+.icon-fb:before { content: $icon-fb; }
+.icon-insta:before { content: $icon-insta; }
+.icon-play:before { content: $icon-play; }
+.icon-tw:before { content: $icon-tw; }
+.icon-you:before { content: $icon-you; }
+.icon-you1:before { content: $icon-you1; }
+.icon-you2:before { content: $icon-you2; }
